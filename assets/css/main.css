@@ -271,9 +271,13 @@ h3 {
   background-color: #ffffff;
   padding: 1rem 3rem;
 }
+.we-us h1 {
+  text-transform: uppercase;
+}
 .we-us p {
   color: #a6a5a8;
   margin-bottom: 1rem;
+  line-height: 1.8rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -299,7 +303,7 @@ h3 {
 @media only screen and (min-width: 1200px) {
   .we-us {
     background-color: #ffffff;
-    padding: 2rem 3rem 5rem 3rem;
+    padding: 5rem 3rem 5rem 3rem;
   }
   .we-us p {
     color: #a6a5a8;
@@ -458,7 +462,7 @@ h3 {
 }
 @media only screen and (min-width: 1200px) {
   .container_grid {
-    width: 1440px;
+    width: 100vw;
   }
 }
 .row_grid {
